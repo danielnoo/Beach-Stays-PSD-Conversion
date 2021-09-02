@@ -1,1 +1,12 @@
-// make one for button
+// read more buttons 
+
+@mixin indexLinks {
+  background-color: $twilightBlue;
+  color: $iceBlue;
+  font-family: $playFair;
+  padding: 0.6rem 0.8rem;
+  text-decoration: none;
+  cursor: pointer;
+  width: fit-content;
+
+}
