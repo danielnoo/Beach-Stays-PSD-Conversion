@@ -1,0 +1,37 @@
+
+
+
+.blog-header {
+  background-image: url(../images/blog-image-1.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.blog-header-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 1fr;
+  height: auto;
+  width: 100%;
+}
+
+.blog-nav ul li:first-child a {
+  color: $iceBlue;
+}
+
+.blog-nav ul li:nth-child(3) a {
+  color: $greenishCyan;
+}
+
+.blog-nav ul li {
+  padding-right: 1.5rem;
+}
+.blog-nav {
+  margin-left: 2rem;
+}

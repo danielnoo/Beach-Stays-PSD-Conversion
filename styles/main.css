@@ -709,3 +709,36 @@ footer p {
   -ms-flex-item-align: center;
       align-self: center;
 }
+
+.blog-header {
+  background-image: url(../images/blog-image-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.blog-header-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 1fr;
+  height: auto;
+  width: 100%;
+}
+
+.blog-nav ul li:first-child a {
+  color: #FAFFFE;
+}
+
+.blog-nav ul li:nth-child(3) a {
+  color: #50E3C2;
+}
+
+.blog-nav ul li {
+  padding-right: 1.5rem;
+}
+
+.blog-nav {
+  margin-left: 2rem;
+}
