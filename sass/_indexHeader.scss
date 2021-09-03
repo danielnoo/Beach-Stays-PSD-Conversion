@@ -10,9 +10,10 @@ header {
 
 .header-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50% 50%;
   grid-template-rows: 100px 1fr;
-  height: 100%;
+  height: auto;
+  width: 100%;
 }
 
 .top-left-logo {

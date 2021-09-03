@@ -50,14 +50,7 @@
 }
 
 .index-footer {
-  height: 1.6rem;
-  width: 100%;
-  background-color: $black;
-  text-align: center;
-  color: $iceBlue;
-  font-size: 0.8rem;
-  display: flex;
-  justify-content: center;
+  @include footerStyles;
 }
 
 .index-footer p {

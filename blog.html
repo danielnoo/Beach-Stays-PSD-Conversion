@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog</title>
+  <title>Beach Stays - Blog</title>
   <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
    <div class="blog-page-wrapper">
     <header class="blog-header">
-      <div class="blog-header-wrapper">
+      <div class="header-wrapper">
         <h2 class="top-left-logo">BEACHSTAYS</h2>
         <nav class="main-nav blog-nav">
           <ul>
@@ -20,7 +20,7 @@
             <li><a href="">CONTACT</a></li>
           </ul>
         </nav>
-      </div> <!--blog-header-wrapper ends-->
+      </div> <!--header-wrapper ends-->
     </header>
     <main class="blog-main">
       <section>
@@ -62,6 +62,43 @@
           </li>
         </ul>
     </aside>
-  </div>
+    
+    <section class="comments">
+      <div class="comments-section-container">
+        <h4>Comments:</h4>
+        <div class="comment-container">
+          <div class="comment-img-container">
+            <img src="./images/comment-image.jpg" alt="man in blazer"> 
+          </div>
+          <div class="comment-text-container">
+            <h6>Tuesday October 9th, 2019 by Reyansh</h6>
+            <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultricies. Donec euismod scelerisque ligula. Maecenas eu varius risus..</p>
+          </div>
+        </div>
+        <div class="comment-container">
+          <div class="comment-img-container">
+            <img src="./images/comment-image2.jpg" alt="women with reflective glasses"> 
+          </div>
+          <div class="comment-text-container">
+            <h6>Wednesday October 10th, 2019 by Olivia</h6>
+            <p>Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. </p>
+          </div>
+        </div>
+      </div><!--comments-section-container ends-->
+      <form class="form" action="/" method="POST">
+        <label class="sr-only" for="name"></label>
+        <input class="name-input" type="text" id="name" name="name" placeholder="Name">
+        <label class="sr-only" for="email"></label>
+        <input type="email" id="email" name="email" placeholder="Email address">
+         <label class="sr-only" for="comment"></label>
+        <textarea name="comment" id="comment" placeholder="Comment"></textarea>
+        <button type="submit">POST COMMENT</button>
+      </form>
+    </section>
+      
+    <footer class="blog-footer"> 
+      <p>Copyright &copy; 2019 HackerYou</p> 
+    </footer>
+  </div><!--blog-page wrapper ends-->
 </body>
 </html>
