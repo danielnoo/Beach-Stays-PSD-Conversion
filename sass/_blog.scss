@@ -159,7 +159,7 @@
 }
 
 
-////////////////////////////////////////////////////////////////////////////////////////////////footer / comments 
+//////////////////////////////////////////////////////////////////////////////////////////////// comments 
 
 
  .comments {
@@ -205,13 +205,7 @@
 /////////////form 
 
 .form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto auto;
-  margin-left: 6rem;
-  background-color: $iceBlue;
-  
-
+  @include formStyles;
 }
 
 input[name=name] {
@@ -225,6 +219,7 @@ input[type=email] {
   grid-column: 2/3;
   @include inputStyle;
   justify-self: end;
+  margin-right: 0.2rem;
 }
 
 .form textarea {
@@ -245,7 +240,8 @@ input[type=email] {
   width: 100%;
   margin: 2rem 0 5rem 0;
 }
-
+////////////////////////////////////////////////////////////////
+///////////footer
 
 .blog-footer p {
   padding-top: 3px;

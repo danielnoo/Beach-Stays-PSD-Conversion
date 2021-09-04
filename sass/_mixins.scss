@@ -32,3 +32,11 @@
   display: flex;
   justify-content: center;
 }
+
+@mixin formStyles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  margin-left: 6rem;
+  background-color: white;
+}
