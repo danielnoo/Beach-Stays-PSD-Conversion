@@ -362,6 +362,7 @@ h1 {
 
 .visit-wrapper article a {
   background-color: #063974;
+  border: 1px solid #063974;
   color: #FAFFFE;
   font-family: "Playfair Display SC", serif;
   padding: 0.6rem 0.8rem;
@@ -370,7 +371,19 @@ h1 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  -webkit-transition: color 0.2s, background-color 0.6s, border 1s;
+  transition: color 0.2s, background-color 0.6s, border 1s;
   margin-top: 1rem;
+}
+.visit-wrapper article a:hover {
+  color: #063974;
+  background-color: #FAFFFE;
+  border: 1px solid #063974;
+}
+.visit-wrapper article a:focus {
+  color: #063974;
+  background-color: #FAFFFE;
+  border: 1px solid #063974;
 }
 
 .visit-wrapper article h3 {
@@ -551,6 +564,7 @@ h1 {
 
 .article-text-container a {
   background-color: #063974;
+  border: 1px solid #063974;
   color: #FAFFFE;
   font-family: "Playfair Display SC", serif;
   padding: 0.6rem 0.8rem;
@@ -559,7 +573,19 @@ h1 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  -webkit-transition: color 0.2s, background-color 0.6s, border 1s;
+  transition: color 0.2s, background-color 0.6s, border 1s;
   margin: 1rem 0 2rem 0;
+}
+.article-text-container a:hover {
+  color: #063974;
+  background-color: #FAFFFE;
+  border: 1px solid #063974;
+}
+.article-text-container a:focus {
+  color: #063974;
+  background-color: #FAFFFE;
+  border: 1px solid #063974;
 }
 
 .article-text-container p {
@@ -612,15 +638,15 @@ h1 {
 .aside-wrapper {
   width: 100%;
   display: grid;
-  grid-template-rows: 500px 1fr;
+  grid-template-rows: auto 1fr;
   position: relative;
   z-index: -5;
-  overflow: hidden;
 }
 
 .aside-img-container {
   width: 100%;
   grid-row: 1/2;
+  height: 100%;
 }
 
 .aside-img-container img {
@@ -645,7 +671,7 @@ h1 {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  margin: 0 auto;
+  margin: 6rem auto 3rem auto;
 }
 
 .aside-text-container p {
@@ -655,6 +681,7 @@ h1 {
 
 .aside-text-container a {
   background-color: #063974;
+  border: 1px solid #063974;
   color: #FAFFFE;
   font-family: "Playfair Display SC", serif;
   padding: 0.6rem 0.8rem;
@@ -663,7 +690,19 @@ h1 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  -webkit-transition: color 0.2s, background-color 0.6s, border 1s;
+  transition: color 0.2s, background-color 0.6s, border 1s;
   margin-bottom: 4rem;
+}
+.aside-text-container a:hover {
+  color: #063974;
+  background-color: #FAFFFE;
+  border: 1px solid #063974;
+}
+.aside-text-container a:focus {
+  color: #063974;
+  background-color: #FAFFFE;
+  border: 1px solid #063974;
 }
 
 .aside-text-container h5 {
@@ -928,6 +967,7 @@ input[type=email] {
 
 .form button {
   background-color: #063974;
+  border: 1px solid #063974;
   color: #FAFFFE;
   font-family: "Playfair Display SC", serif;
   padding: 0.6rem 0.8rem;
@@ -936,11 +976,23 @@ input[type=email] {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  -webkit-transition: color 0.2s, background-color 0.6s, border 1s;
+  transition: color 0.2s, background-color 0.6s, border 1s;
   grid-row: 3/4;
   grid-column: 1/3;
   border: none;
   width: 100%;
   margin: 2rem 0 5rem 0;
+}
+.form button:hover {
+  color: #063974;
+  background-color: #FAFFFE;
+  border: 1px solid #063974;
+}
+.form button:focus {
+  color: #063974;
+  background-color: #FAFFFE;
+  border: 1px solid #063974;
 }
 
 .blog-footer p {
