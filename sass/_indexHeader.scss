@@ -97,8 +97,14 @@ h1 {
   &:hover {
     color: $greenishCyan;
   }
+  &:focus {
+    color: $greenishCyan;;
+  }
 }
 
 .main-nav ul li:first-child > a {
   color: $greenishCyan;
 }
+
+
+

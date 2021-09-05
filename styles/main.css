@@ -330,6 +330,9 @@ h1 {
 .main-nav ul li a:hover {
   color: #50E3C2;
 }
+.main-nav ul li a:focus {
+  color: #50E3C2;
+}
 
 .main-nav ul li:first-child > a {
   color: #50E3C2;
@@ -1170,4 +1173,165 @@ input[type=email] {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.mobile-nav {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 15rem;
+  width: 11rem;
+  position: relative;
+  grid-row-start: 1;
+  grid-column: 2/3;
+  justify-self: end;
+  align-self: flex-start;
+  margin: 0;
+}
+
+.mobile-nav ul {
+  visibility: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: end;
+  -ms-flex-item-align: start;
+      align-self: start;
+  height: 12rem;
+  width: 8rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0;
+  margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+  -webkit-transition: opacity 0.8s ease;
+  transition: opacity 0.8s ease;
+}
+
+.mobile-nav ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  height: 2.7rem;
+  list-style-type: none;
+  border-bottom: 1px solid #FAFFFE;
+  width: 100%;
+  background-color: #063974;
+}
+
+.mobile-nav ul li:last-child {
+  border: none;
+}
+
+.mobile-nav a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #FAFFFE;
+  display: block;
+  width: 100%;
+  height: 50%;
+  padding-left: 1rem;
+}
+.mobile-nav a:hover {
+  color: #50E3C2;
+}
+.mobile-nav a:focus {
+  color: #50E3C2;
+}
+
+.mobile-nav li:first-child a {
+  color: #50E3C2;
+}
+
+.mobile-nav input {
+  position: absolute;
+  width: 2.3rem;
+  height: 2.3rem;
+  top: 0.1rem;
+  right: 0.7rem;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.hamburger-menu {
+  width: 2.3rem;
+  height: 0.3rem;
+  background-color: #FAFFFE;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  position: relative;
+  top: 0;
+  right: 0.7rem;
+  cursor: pointer;
+  -webkit-transform: none;
+          transform: none;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.hamburger-menu::before {
+  position: absolute;
+  content: "";
+  width: 2.3rem;
+  height: 0.3rem;
+  background-color: #FAFFFE;
+  top: 0.5rem;
+  cursor: pointer;
+  -webkit-transform: none;
+          transform: none;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.hamburger-menu::after {
+  position: absolute;
+  content: "";
+  width: 2.3rem;
+  height: 0.3rem;
+  background-color: #FAFFFE;
+  top: -0.5rem;
+}
+
+.mobile-nav input:checked ~ ul {
+  visibility: visible;
+  opacity: 1;
+}
+
+.mobile-nav input:checked ~ .hamburger-menu::after {
+  visibility: hidden;
+}
+
+.mobile-nav input:checked ~ .hamburger-menu::before {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  top: 0;
+}
+
+.mobile-nav input:checked ~ .hamburger-menu {
+  -webkit-transform: rotate(765deg);
+          transform: rotate(765deg);
 }
