@@ -3,6 +3,7 @@
   display: grid;
   grid-template-rows: 500px 500px auto;
   grid-template-columns: 1fr 1fr;
+  background-color: $iceBlue;
   
 }
 
@@ -27,6 +28,13 @@
 
 .contact-header ul li:first-of-type  a {
   color: $iceBlue;
+
+  &:hover {
+    color: $greenishCyan;
+  }
+  &:focus {
+    color: $greenishCyan;
+  }
 }
 
 .contact-header ul li:nth-child(4) a {
@@ -51,7 +59,7 @@
 .contact-form-container h2 {
   grid-column: 1;
   font-size: 3.2rem;
-  color: $iceBlue;
+  color: white;
   letter-spacing: 8px;
   text-align: center;
   margin: 0 4rem 1rem 0;

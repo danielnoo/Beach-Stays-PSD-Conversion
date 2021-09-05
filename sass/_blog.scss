@@ -18,12 +18,21 @@
   grid-row: 1/3;
 }
 
+
+
 ////////small grid for the header is declared in indexHeader.scss
 //////// line 11 - .header-wrapper -it is re-used in the Blog
 ////// and contact pages
 
 .blog-nav ul li:first-child a {
   color: $iceBlue;
+
+  &:hover {
+    color: $greenishCyan;
+  }
+  &:focus {
+    color: $greenishCyan;
+  }
 }
 
 .blog-nav ul li:nth-child(3) a {
@@ -39,7 +48,7 @@
 
 
 ////////////////////////////////////////
-///////////// main / article
+/////////// main / article
 
 .blog-main {
   grid-row-start: 2;

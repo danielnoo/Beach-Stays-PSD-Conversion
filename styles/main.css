@@ -251,14 +251,20 @@ header {
 }
 
 .top-left-logo {
-  font-size: 1.73rem;
   font-family: "Playfair Display SC", serif;
-  padding: 0;
   color: #50E3C2;
   grid-row: 1/2;
   grid-column: 1/2;
   margin-left: 22%;
   margin-top: 2%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.top-left-logo h2 {
+  font-size: 1.73rem;
+  padding: 0;
+  margin: 0;
 }
 
 .header-img-container {
@@ -320,6 +326,9 @@ h1 {
   color: #FAFFFE;
   text-decoration: none;
   cursor: pointer;
+}
+.main-nav ul li a:hover {
+  color: #50E3C2;
 }
 
 .main-nav ul li:first-child > a {
@@ -481,6 +490,14 @@ h1 {
   width: 80%;
   margin-left: -3.6rem;
 }
+.middle-nav-wrapper a:hover {
+  background-color: #50E3C2;
+  border-radius: 0.7rem;
+}
+.middle-nav-wrapper a:focus {
+  background-color: #50E3C2;
+  border-radius: 0.7rem;
+}
 
 .middle-nav-wrapper i {
   color: #FAFFFE;
@@ -626,6 +643,7 @@ h1 {
 
 .article-img-container {
   width: 100%;
+  z-index: 2;
 }
 
 .article-wrapper img {
@@ -639,8 +657,6 @@ h1 {
   width: 100%;
   display: grid;
   grid-template-rows: auto 1fr;
-  position: relative;
-  z-index: -5;
 }
 
 .aside-img-container {
@@ -754,6 +770,12 @@ h1 {
 
 .blog-nav ul li:first-child a {
   color: #FAFFFE;
+}
+.blog-nav ul li:first-child a:hover {
+  color: #50E3C2;
+}
+.blog-nav ul li:first-child a:focus {
+  color: #50E3C2;
 }
 
 .blog-nav ul li:nth-child(3) a {
@@ -1022,6 +1044,7 @@ input[type=email] {
   display: grid;
   grid-template-rows: 500px 500px auto;
   grid-template-columns: 1fr 1fr;
+  background-color: #FAFFFE;
 }
 
 .contact-header {
@@ -1042,6 +1065,12 @@ input[type=email] {
 .contact-header ul li:first-of-type a {
   color: #FAFFFE;
 }
+.contact-header ul li:first-of-type a:hover {
+  color: #50E3C2;
+}
+.contact-header ul li:first-of-type a:focus {
+  color: #50E3C2;
+}
 
 .contact-header ul li:nth-child(4) a {
   color: #50E3C2;
@@ -1060,7 +1089,7 @@ input[type=email] {
 .contact-form-container h2 {
   grid-column: 1;
   font-size: 3.2rem;
-  color: #FAFFFE;
+  color: white;
   letter-spacing: 8px;
   text-align: center;
   margin: 0 4rem 1rem 0;

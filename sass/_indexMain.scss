@@ -125,6 +125,17 @@
   width: 80%;
   margin-left: -3.6rem;
   
+
+  &:hover {
+    background-color: $greenishCyan;
+    border-radius: 0.7rem;
+  }
+
+  &:focus {
+    background-color: $greenishCyan;
+    border-radius: 0.7rem;
+  }
+  
 }
 
 .middle-nav-wrapper i {
@@ -234,6 +245,7 @@
 
 .article-img-container {
   width: 100%;
+  z-index: 2;
 }
 
 

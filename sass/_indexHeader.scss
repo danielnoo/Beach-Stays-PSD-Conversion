@@ -17,15 +17,20 @@ header {
 }
 
 .top-left-logo {
-  font-size: 1.73rem;
   font-family: $playFair;
-  padding: 0;
   color: $greenishCyan;
   grid-row: 1/2;
   grid-column: 1/2;
   margin-left: 22%;
   margin-top: 2%;
-  
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.top-left-logo h2 {
+  font-size: 1.73rem;
+  padding: 0;
+  margin: 0;
 }
 
 .header-img-container {
@@ -88,6 +93,10 @@ h1 {
   color: $iceBlue;
   text-decoration: none;
   cursor: pointer;
+
+  &:hover {
+    color: $greenishCyan;
+  }
 }
 
 .main-nav ul li:first-child > a {
