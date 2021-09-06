@@ -69,6 +69,14 @@
     grid-column: 1/2;
     flex-direction: column;
   }
+  .left-article-container .article-text-container {
+    align-self: flex-start;
+  }
+
+  .right-article-container .article-img-container {
+    display: flex;
+    justify-content: flex-end;
+  }
 
   .plan-ahead {
     margin-top: 2rem;

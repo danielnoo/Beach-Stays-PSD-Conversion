@@ -1454,6 +1454,20 @@ input[type=email] {
             flex-direction: column;
   }
 
+  .left-article-container .article-text-container {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+
+  .right-article-container .article-img-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+
   .plan-ahead {
     margin-top: 2rem;
   }
@@ -1560,6 +1574,10 @@ input[type=email] {
     width: 100%;
   }
 
+  .article-text-container {
+    width: 90%;
+  }
+
   .aside-img-container {
     display: none;
   }
@@ -1641,6 +1659,8 @@ input[type=email] {
   .contact-form {
     padding: 2.5rem 1rem 1rem 1rem;
     width: 90%;
+    -webkit-box-shadow: 4px 18px 0px 4px #50E3C2;
+            box-shadow: 4px 18px 0px 4px #50E3C2;
   }
 
   .contact-form-footer {
