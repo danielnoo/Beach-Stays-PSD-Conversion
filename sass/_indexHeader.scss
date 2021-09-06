@@ -63,6 +63,15 @@ h1 {
   color: $twilightBlue;
   margin: 0;
   line-height: 3.5rem;
+
+  @media(max-width: 500px) {
+    font-size: 3.8rem;
+  }
+
+  @media(max-width: 420px) {
+    font-size: 3.1rem;
+  }
+
 }
 
 .header-text-container {
@@ -76,6 +85,7 @@ h1 {
 .main-nav {
   justify-self: center;
   margin-right: 3%;
+  margin-left: 2rem;
 }
 
 .main-nav ul {

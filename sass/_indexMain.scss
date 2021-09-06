@@ -148,7 +148,7 @@
 
 .middle-nav-wrapper .i-circle {
   height: 2.1rem;
-  width: 2.1rem;
+  min-width: 2.1rem;
   border-radius: 50%;
   background-color: $greenishCyan;
   display: flex;
@@ -171,7 +171,7 @@
 .article-wrapper {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat (2, 1fr );
+  grid-template-columns: 1fr 1fr;
   background-color: $lightLightBlue;
 }
 

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display+SC:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 @import './normalize';
 @import './config';
 @import './mixins';
@@ -7,10 +8,19 @@
 @import './indexAsideAndFooter';
 @import './blog';
 @import './contact';
-@import'./hamburgerMenu';
+@import './hamburgerMenu';
 @import './media1200px';
+@import './media940px';
+@import './media600px';
 
 
 
 //// notes /////////////////////////////////
 /// placeholder text- didn't want to lighten it that much because of contrast
+/// 
+/// credit to Rob for finding the Comments section header font - josefin
+///
+/// I created my spinny hamburger by using Adrian's advanced css selectors codealong as an initial guide
+
+/// fixed January 21th on blog article
+

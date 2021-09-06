@@ -1,3 +1,37 @@
+
+
+
 @media (max-width: 1200px) {
   
+  ///////////  global 
+  
+  .main-nav {
+    margin-left: 0;
+  }
+  
+  ////////////// for index.html
+  
+  .header-img-container {
+   margin-top: 30%;
+  }
+
+  ////////////// for blog.html
+
+  .comment-text-container {
+    margin-left: 0.5rem;
+  }
+
+  .form input {
+    width: 85%;
+  }
+
+  .blog-aside {
+    width: 71%;
+  }
+
+  ////////////// for contact.html
+
+  .contact-form-container h2{
+    margin-right: -3rem;
+  }
 }
