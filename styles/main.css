@@ -1123,7 +1123,6 @@ input[type=email] {
   letter-spacing: 8px;
   text-align: center;
   margin: 0 4rem 1rem 0;
-  width: 91%;
 }
 
 .contact-form {
@@ -1385,14 +1384,6 @@ input[type=email] {
   .blog-aside {
     width: 71%;
   }
-
-  .contact-form-container h2 {
-    margin-right: -3rem;
-  }
-
-  .contact-form-container h2 {
-    width: 98%;
-  }
 }
 @media (max-width: 940px) {
   .main-nav {
@@ -1647,6 +1638,11 @@ input[type=email] {
     margin: 1rem 0rem 5rem 0rem;
   }
 
+  .contact-form {
+    padding: 2.5rem 1rem 1rem 1rem;
+    width: 90%;
+  }
+
   .contact-form-footer {
     padding-left: 2rem;
     width: 75%;
@@ -1656,5 +1652,6 @@ input[type=email] {
     letter-spacing: 3px;
     text-indent: 1rem;
     font-size: 2.3rem;
+    width: 100%;
   }
 }
