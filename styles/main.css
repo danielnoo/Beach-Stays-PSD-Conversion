@@ -571,7 +571,7 @@ h1 {
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
-  margin-left: 15%;
+  padding-left: 15%;
 }
 
 .article-text-container {
@@ -1123,6 +1123,7 @@ input[type=email] {
   letter-spacing: 8px;
   text-align: center;
   margin: 0 4rem 1rem 0;
+  width: 91%;
 }
 
 .contact-form {
@@ -1388,6 +1389,10 @@ input[type=email] {
   .contact-form-container h2 {
     margin-right: -3rem;
   }
+
+  .contact-form-container h2 {
+    width: 98%;
+  }
 }
 @media (max-width: 940px) {
   .main-nav {
@@ -1528,6 +1533,7 @@ input[type=email] {
   .contact-form {
     width: 85%;
     margin: 0 auto;
+    padding: 4rem auto 0 auto;
   }
 
   .contact-form-container h2 {
