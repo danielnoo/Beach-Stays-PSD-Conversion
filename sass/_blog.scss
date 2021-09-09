@@ -254,10 +254,10 @@ input[type=email] {
 }
 
 .form button {
+  border: none;
   @include indexLinks;
   grid-row: 3/4;
   grid-column: 1/3;
-  border: none;
   width: 100%;
   margin: 2rem 0 5rem 0;
 }
