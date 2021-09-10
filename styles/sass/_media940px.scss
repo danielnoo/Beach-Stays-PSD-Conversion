@@ -36,7 +36,6 @@
     padding-bottom: 4rem;
   }
 
-    
   .gallery-wrapper li {
     width: 45%;
   }
@@ -68,6 +67,15 @@
     grid-row: 2/3;
     grid-column: 1/2;
     flex-direction: column;
+  }
+  
+  .left-article-container .article-text-container {
+    align-self: flex-start;
+  }
+
+  .right-article-container .article-img-container {
+    display: flex;
+    justify-content: flex-end;
   }
 
   .plan-ahead {
@@ -136,6 +144,7 @@
   .contact-form {
     width: 85%;
     margin: 0 auto;
+    padding: 4rem auto 0 auto;
   }
   
   .contact-form-container h2 {

@@ -1,7 +1,5 @@
 @media (max-width: 600px) {
-  ///////////global 
-
-
+  
 
   //////////////for index.html
 
@@ -22,17 +20,15 @@
     width: 100%;
   }
 
+  .article-text-container {
+    width: 90%;
+  }
   .aside-img-container {
     display: none;
   }
 
-  
-
-
-
-
-
   //////////////for blog.html
+  
   .blog-article-wrapper > h2 {
     font-size: 3.5rem;
     margin-left: 0.5rem;
@@ -105,6 +101,12 @@
 
 //////////for contact.html
 
+  .contact-form {
+     padding: 2.5rem 1rem 1rem 1rem;
+     width: 90%;
+     box-shadow: 4px 18px 0px 4px $greenishCyan;
+  }
+
   .contact-form-footer {
     padding-left: 2rem;
     width: 75%;
@@ -114,5 +116,6 @@
     letter-spacing: 3px;
     text-indent: 1rem;
     font-size: 2.3rem;
+    width: 100%;
   }
 }
