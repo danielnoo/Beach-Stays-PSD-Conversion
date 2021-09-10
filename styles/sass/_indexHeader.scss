@@ -25,6 +25,10 @@ header {
   margin-top: 2%;
   cursor: pointer;
   text-decoration: none;
+
+  @media (max-width: 400px) {
+    margin-top: 50%;
+  }
 }
 
 .top-left-logo h2 {

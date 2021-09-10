@@ -261,6 +261,11 @@ header {
   cursor: pointer;
   text-decoration: none;
 }
+@media (max-width: 400px) {
+  .top-left-logo {
+    margin-top: 50%;
+  }
+}
 
 .top-left-logo h2 {
   font-size: 1.73rem;
