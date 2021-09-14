@@ -355,6 +355,33 @@ h1 {
   color: #50E3C2;
 }
 
+.header-wrapper {
+  display: none;
+}
+
+header {
+  background: none;
+}
+
+.header-wrapper {
+  z-index: 3;
+}
+
+.new-header-wrapper {
+  width: 100%;
+  height: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50% 1fr 1fr 1fr;
+  z-index: 5;
+}
+
+.wave1 {
+  grid-row: 3/4;
+  grid-column: 1/4;
+  background-image: url(../images/wave.svg);
+}
+
 .visit-wrapper {
   width: 90%;
   display: grid;
