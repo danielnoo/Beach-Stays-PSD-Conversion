@@ -47,7 +47,7 @@ safi.addEventListener('click', safiQuotes);
 
 
 
-/////////////////////////////////////////move the waves
+/////////////////////////////////////////move the waves -
 
 
 /// a function that moves the waves, slowly dragging safi into the tide
