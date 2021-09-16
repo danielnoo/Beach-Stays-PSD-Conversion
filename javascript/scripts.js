@@ -1,4 +1,7 @@
 
+
+
+
 // audio declared outside of the calling function to avoid multiple 
 // simultaneous plays
 // - an event listener waits for a click because web browsers are lame and won't let us force music on people. after the click the bevery hills 90210 theme song starts, the beach stays logo comes in followed by a 90210 sub heading in time with the drum beats at the beginning of the song
@@ -32,9 +35,9 @@ document.addEventListener('mousemove', getMouseX);
 
 /////////////////// safi quotes
 
-const safiQuotesArray = ['GSS-DSS-PSS', 'All webdev really is...is sharks', 'NEED FLOATIES!!', 'LOOK AT THIS CAT VIDEO!!', 'SMASH THE PATRIARCHY!!'];
+const safiQuotesArray = ['GSS-DSS-PSS', 'All webdev really is...is sharks', 'NEED FLOATIES!!', 'LOOK AT THIS CAT VIDEO!!', 'SMASH THE PATRIARCHY!!', 'EXISTENTIAL DREAD...', "IT'S RIGHT HERE! IT'S OVER HERE!"];
 
-// a function that should make a thought bubble appear over safi's head and generate a random quote from an array
+// a function that should make a thought bubble element appear over safi's head and generate a random quote from an array then insert it into the DOM there
 const safiQuotes = () => {
   const quoteIndex = Math.floor(Math.random() * safiQuotesArray.length);
   document.querySelector('.quote-container').classList.remove('notVisible');
