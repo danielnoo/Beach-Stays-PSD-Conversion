@@ -1,4 +1,4 @@
-# PSD to HTML/CSS conversion
+# Beach Stays -- PSD to HTML/CSS conversion
 Project submission for Juno College web dev immersive bootcamp - multi-page PSD to functional website conversion
 
 
